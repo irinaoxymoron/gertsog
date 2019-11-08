@@ -4,68 +4,23 @@
 */
 
 @font-face {
-  font-family: 'Roboto-Regular';
-  src: url('../fonts/Roboto/Roboto-Regular.eot') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Regular.woff2') format('woff2'), url('../fonts/Roboto/Roboto-Regular.woff') format('woff'), url('../fonts/Roboto/Roboto-Regular.ttf') format('truetype');
+  font-family: 'Arsenal-Bold';
+  src: url('../fonts/Arsenal/Arsenal-Bold.eot') format('embedded-opentype'), url('../fonts/Arsenal/Arsenal-Bold.woff2') format('woff2'), url('../fonts/Arsenal/Arsenal-Bold.woff') format('woff'), url('../fonts/Arsenal/Arsenal-Bold.ttf') format('truetype');
 }
 
-@mixin Roboto-Regular() {
-  font-family: Roboto-Regular;
+@mixin Arsenal-Bold() {
+  font-family: Arsenal-Bold;
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: 'Roboto-Bold';
-  src: url('../fonts/Roboto/Roboto-Bold.eot') format('embedded-opentype'), url('../fonts/Roboto/Roboto-Bold.woff2') format('woff2'), url('../fonts/Roboto/Roboto-Bold.woff') format('woff'), url('../fonts/Roboto/Roboto-Bold.ttf') format('truetype');
+  font-family: 'Arsenal-Regular';
+  src: url('../fonts/Arsenal/Arsenal-Regular.eot') format('embedded-opentype'), url('../fonts/Arsenal/Arsenal-Regular.woff2') format('woff2'), url('../fonts/Arsenal/Arsenal-Regular.woff') format('woff'), url('../fonts/Arsenal/Arsenal-Regular.ttf') format('truetype');
 }
 
-@mixin Roboto-Bold() {
-  font-family: Roboto-Bold;
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: 'HelveticaNeueCyr-Bold';
-  src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.eot') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.woff') format('woff'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Bold.ttf') format('truetype');
-}
-
-@mixin HelveticaNeueCyr-Bold() {
-  font-family: HelveticaNeueCyr-Bold;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'HelveticaNeueCyr-Roman';
-  src: url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.eot') format('embedded-opentype'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff2') format('woff2'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.woff') format('woff'), url('../fonts/HelveticaNeueCyr/HelveticaNeueCyr-Roman.ttf') format('truetype');
-}
-
-@mixin HelveticaNeueCyr-Roman() {
-  font-family: HelveticaNeueCyr-Roman;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Comfortaa-Bold';
-  src: url('../fonts/Comfortaa/Comfortaa-Bold.eot') format('embedded-opentype'), url('../fonts/Comfortaa/Comfortaa-Bold.woff2') format('woff2'), url('../fonts/Comfortaa/Comfortaa-Bold.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Bold.ttf') format('truetype');
-}
-
-@mixin Comfortaa-Bold() {
-  font-family: Comfortaa-Bold;
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Comfortaa-Regular';
-  src: url('../fonts/Comfortaa/Comfortaa-Regular.eot') format('embedded-opentype'), url('../fonts/Comfortaa/Comfortaa-Regular.woff2') format('woff2'), url('../fonts/Comfortaa/Comfortaa-Regular.woff') format('woff'), url('../fonts/Comfortaa/Comfortaa-Regular.ttf') format('truetype');
-}
-
-@mixin Comfortaa-Regular() {
-  font-family: Comfortaa-Regular;
+@mixin Arsenal-Regular() {
+  font-family: Arsenal-Regular;
   font-weight: normal;
   font-style: normal;
 }
