@@ -5,29 +5,427 @@
 	&__content {
 		max-width: 1280px;
 		margin: 0 auto;
+		padding: 0 10px;
 	}
 
 	&__title {
 		@include Arsenal-Bold();
 		font-size: 94px;
 		line-height: 97px;
+		margin-top: 90px;
+	}
+
+	&__slider {
+		margin-top: 82px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.promo {
+
+		&__title {
+			font-size: 44px;
+			line-height: 45px;
+			margin-top: 50px;
+		}
+
+		&__slider {
+			margin-top: 60px;
+		}
+		
 	}
 }
 
 //about 
 
 .about {
-
 	max-width: 1280px;
 	margin: 0 auto;
+	padding: 0 10px;
 
 	&__content {
-		
+		display: flex;
+		justify-content: space-between;
+		margin-top: 33px;
 	}
 
 	&__title {
 		@include Arsenal-Bold();
 		font-size: 72px;
-		line-height: 97px;
+		line-height: 75px;
+		margin-top: 87px;
+	}
+
+	&__text--wrap {
+		width: 70%;
+	}
+
+	&__subtitle {
+		@include Arsenal-Bold();
+		font-size: 20px;
+		line-height: 32px;
+		margin-top: 13px;
+	}
+
+	&__text {
+		display: flex;
+    	margin-top: 28px;
+		font-size: 20px;
+		line-height: 32px;
+		padding-right: 43px;
+
+		& p {
+			margin-top: 10px;
+    		padding-right: 10px;
+		}
+	}
+
+	&__slider--wrap {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.about {
+
+		&__content {
+			flex-direction: column;
+			margin-top: 13px;
+		}
+
+		&__title {
+			font-size: 50px;
+			line-height: 52px;
+			margin-top: 60px;
+		}
+
+		&__text {
+			font-size: 18px;
+			line-height: 28px;
+			flex-direction: column;
+			padding-right: 0;
+			margin-top: 13px;
+
+			&--wrap {
+				width: 100%;
+			}
+		}
+
+		&__slider--wrap {
+			text-align: center;
+			margin-top: 20px;
+		}
+	}
+}
+
+// advantages
+
+.advantages {
+	margin-top: 145px;
+	margin-bottom: 55px;
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		display: flex;
+    	justify-content: space-between;
+	}
+
+	&__title {
+		@include Arsenal-Bold();
+		font-size: 48px;
+		line-height: 48px;
+		margin-top: 10px;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 28px;
+		margin-top: 25px;
+	}
+
+	&__btn {
+		display: inline-block;
+    	background: #282828;
+    	padding: 19px 34px;
+    	margin-top: 28px;
+    	color: #fff;
+    	font-size: 17px;
+    	line-height: 18px;
+    	transition: .3s; 
+
+    	&:hover {
+    		opacity: .7;
+    	}
+	}
+
+	&__block {
+		margin-bottom: 64px;
+
+		&--wrap {
+			width: 46%;
+			max-width: 500px;
+		}
+	}
+
+	&__subtitle {
+		@include Arsenal-Bold();
+		font-size: 36px;
+		line-height: 38px;
+		margin-top: 28px;
+	}
+
+	&__img {
+		border-radius: 15px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.advantages {
+		margin-top: 60px;
+
+		&__content {
+			flex-direction: column;
+		}
+
+		&__title {
+			font-size: 44px;
+			line-height: 45px;
+		}
+
+		&__subtitle {
+			font-size: 30px;
+			line-height: 32px;
+		}
+
+		&__block {
+
+			&--wrap {
+				width: 100%;
+			}
+		}
+	}
+}
+
+// profile
+
+.profile {
+
+	background-image: url(../img/profile-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		display: flex;
+	}
+
+	&__content > .profile__text--wrap {order: 2;}
+
+	&__content > .profile__form--wrap {order: 1;}
+
+	&__form--wrap {
+		background: #fff;
+		margin: 54px 60px 80px;
+	}
+
+	&__title {
+		@include Arsenal-Bold();
+		margin-top: 152px;
+		font-size: 48px;
+		line-height: 48px;
+		color: #fff;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 28px;
+		color: #fff;
+		margin-top: 20px;
+	}
+
+	&__btn {
+		display: inline-block;
+    	background: #fff;
+    	padding: 19px 34px;
+    	margin-top: 55px;
+    	color: #000;
+    	font-size: 17px;
+    	line-height: 18px;
+    	transition: .3s; 
+
+    	&:hover {
+    		opacity: .7;
+    	}
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.profile {
+		&__content {
+			flex-direction: column;
+			padding: 0;
+		}
+
+		&__content > .profile__text--wrap {order: 1;}
+
+		&__content > .profile__form--wrap {order: 2;}
+
+		&__title {
+			font-size: 42px;
+			line-height: 44px;
+			margin-top: 52px;
+		}
+
+		&__text--wrap {
+			padding: 0 10px;
+		}
+
+		&__form--wrap {
+			margin: 60px 0;
+		}
+	}
+}
+
+// calculator
+
+.calculator-gadget {
+	max-width: 538px;
+	padding: 52px;
+}
+
+.calculator-gadget p {
+	@include Arsenal-Bold();
+	font-size: 17px;
+	line-height: 19px;
+}
+
+.calculator-gadget .calculator-sm {
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	margin-top: 14px;
+}
+
+.calculator-radio-block {
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.price-place {
+	@include Arsenal-Bold();
+	font-size: 72px;
+	line-height: 74px;
+}
+
+// explore
+
+.explore {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		padding-bottom: 77px;
+		border-bottom: 1px solid #eaeaea;
+	}
+
+	&__title {
+		@include Arsenal-Bold();
+		font-size: 72px;
+		line-height: 74px;
+		margin-top: 102px;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 32px;
+		margin-top: 37px;
+	}
+
+	&__subtitle {
+		font-size: 20px;
+		line-height: 22px;
+		margin-top: 137px;
+	}
+
+	&__info {
+		@include Arsenal-Bold();
+		font-size: 48px;
+		line-height: 48px;
+	}
+
+	&__link {
+		text-decoration: underline;
+    	transition: .3s; 
+
+    	&:hover {
+    		opacity: .7;
+    	}
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.explore {
+
+		&__title {
+			font-size: 50px;
+			line-height: 52px;
+			margin-top: 68px;
+		}
+
+		&__text {
+			font-size: 18px;
+			line-height: 28px;
+		}
+
+		&__subtitle {
+			margin-top: 80px;
+			font-size: 18px;
+			line-height: 20px;
+		}
+
+		&__info {
+			font-size: 44px;
+			line-height: 45px;
+		}
+	}
+}
+
+// review
+
+.review {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		text-align: center;
+	}
+
+	&__title {
+		@include Arsenal-Bold();
+		font-size: 48px;
+		line-height: 50px;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.review {
+		
 	}
 }
