@@ -37,6 +37,11 @@
 	&__phone {
 		@include Arsenal-Bold();
 		font-size: 30px;
+		transition: .3s;
+
+		&:hover {
+			color: #47a5ae;
+		}
 	}
 }
 
@@ -180,7 +185,7 @@
     	left: 0;
     	z-index: 8888;
     	width: 100%;
-    	background: #0082cf;
+    	background: #47a5ae;
     	height: 100vh;
     	padding: 60px 20px;
 	}

@@ -27,8 +27,8 @@
 
     display: block;
 
-    width: 20px;
-    height: 20px;
+    width: 23px;
+    height: 44px;
     padding: 0;
     -webkit-transform: translate(0, -50%);
     -ms-transform: translate(0, -50%);
@@ -71,7 +71,7 @@
     line-height: 1;
 
     opacity: .75;
-    color: white;
+    color: #000;
 
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -79,7 +79,8 @@
 
 .slick-prev
 {
-    left: -25px;
+    left: 15px;
+    z-index: 5555;
 }
 [dir='rtl'] .slick-prev
 {
@@ -88,16 +89,16 @@
 }
 .slick-prev:before
 {
-    content: '←';
+    content: url(../img/slider-left.png);
 }
 [dir='rtl'] .slick-prev:before
 {
-    content: '→';
+    content: url(../img/slider-right.png);
 }
 
 .slick-next
 {
-    right: -25px;
+    right: 15px;
 }
 [dir='rtl'] .slick-next
 {
@@ -106,11 +107,11 @@
 }
 .slick-next:before
 {
-    content: '→';
+    content: url(../img/slider-right.png);
 }
 [dir='rtl'] .slick-next:before
 {
-    content: '←';
+    content: url(../img/slider-left.png);
 }
 
 /* Dots */

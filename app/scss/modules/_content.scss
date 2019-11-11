@@ -2,13 +2,10 @@
 
 .promo {
 
-	&__content {
+	&__title {
 		max-width: 1280px;
 		margin: 0 auto;
 		padding: 0 10px;
-	}
-
-	&__title {
 		@include Arsenal-Bold();
 		font-size: 94px;
 		line-height: 97px;
@@ -17,6 +14,18 @@
 
 	&__slider {
 		margin-top: 82px;
+	}
+
+	&__link {
+		&:nth-child(2n) {
+			padding-top: 30px;
+		}
+	}
+
+	&__img {
+		width: 100%;
+		max-width: 1280px;
+		margin: 0 auto;
 	}
 }
 
@@ -27,11 +36,16 @@
 		&__title {
 			font-size: 44px;
 			line-height: 45px;
-			margin-top: 50px;
+			margin-top: 40px;
 		}
 
 		&__slider {
-			margin-top: 60px;
+			margin-top: 50px;
+
+			& img {
+				margin-bottom: 10px;
+				padding: 0 10px;
+			}
 		}
 		
 	}
@@ -73,16 +87,20 @@
     	margin-top: 28px;
 		font-size: 20px;
 		line-height: 32px;
-		padding-right: 43px;
+		padding-right: 10px;
 
 		& p {
 			margin-top: 10px;
-    		padding-right: 10px;
+    		padding-right: 30px;
 		}
 	}
 
 	&__slider--wrap {
-		text-align: center;
+		width: 27%;
+	}
+
+	&__slider {
+		width: 270px;
 	}
 }
 
@@ -98,7 +116,7 @@
 		&__title {
 			font-size: 50px;
 			line-height: 52px;
-			margin-top: 60px;
+			margin-top: 50px;
 		}
 
 		&__text {
@@ -114,7 +132,6 @@
 		}
 
 		&__slider--wrap {
-			text-align: center;
 			margin-top: 20px;
 		}
 	}
@@ -158,7 +175,7 @@
     	transition: .3s; 
 
     	&:hover {
-    		opacity: .7;
+    		background: #47a5ae;
     	}
 	}
 
@@ -179,6 +196,7 @@
 	}
 
 	&__img {
+		width: 100%;
 		border-radius: 15px;
 	}
 }
@@ -261,7 +279,7 @@
     	transition: .3s; 
 
     	&:hover {
-    		opacity: .7;
+    		background: #47a5ae;
     	}
 	}
 }
@@ -297,7 +315,7 @@
 // calculator
 
 .calculator-gadget {
-	max-width: 538px;
+	max-width: 531px;
 	padding: 52px;
 }
 
@@ -305,6 +323,7 @@
 	@include Arsenal-Bold();
 	font-size: 17px;
 	line-height: 19px;
+	margin-bottom: 13px;
 }
 
 .calculator-gadget .calculator-sm {
@@ -317,12 +336,39 @@
 .calculator-radio-block {
 	display: flex;
 	margin-bottom: 30px;
+	border: 1px solid #e8e8e8;
+	padding: 0;	
+}
+
+.calculator-radio-block-label {
+
+	border: 1px solid #e8e8e8;
+	padding: 8px 14px;
+	width: 33.333333%;
+	display: flex;
+    justify-content: center;
+
+	& input {
+		display: none;
+	}
 }
 
 .price-place {
 	@include Arsenal-Bold();
 	font-size: 72px;
 	line-height: 74px;
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.calculator-gadget {
+		padding: 40px 20px;
+	}
+
+	.price-place {
+		font-size: 70px;
+	}
+
 }
 
 // explore
@@ -367,7 +413,7 @@
     	transition: .3s; 
 
     	&:hover {
-    		opacity: .7;
+    		color: #47a5ae;
     	}
 	}
 }
@@ -400,6 +446,81 @@
 	}
 }
 
+// articles
+
+.articles {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		display: flex;
+		justify-content: space-between;
+		margin-top: 80px;
+	}
+
+	&__text--wrap {
+		border-bottom: 1px solid #eaeaea;
+		width: 33%;
+		max-width: 330px;
+	}
+
+	&__subtitle {
+		font-size: 16px;
+		line-height: 18px;
+		color: #9b9b9b;
+	}
+
+	&__title {
+		@include Arsenal-Bold();
+		font-size: 30px;
+		line-height: 34px;
+	}
+
+	&__link {
+		text-decoration: underline;
+		transition: .3s; 
+
+    	&:hover {
+    		color: #47a5ae;
+    	}
+	}
+
+	&__text {
+		@include Arsenal-Bold();
+		font-size: 18px;
+		line-height: 20px;
+		margin-top: 40px;
+		margin-bottom: 44px;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.articles {
+
+		&__content {
+			flex-direction: column;
+			margin-top: 0;
+		}
+
+		&__text--wrap {
+			width: 100%;
+		}
+
+		&__title {
+			font-size: 24px;
+			line-height: 27px;
+		}
+
+		&__subtitle {
+			margin-top: 40px;
+		}
+		
+	}
+}
+
+
 // review
 
 .review {
@@ -415,17 +536,80 @@
 		@include Arsenal-Bold();
 		font-size: 48px;
 		line-height: 50px;
+		margin-top: 94px;
 	}
 
 	&__text {
 		font-size: 20px;
 		line-height: 28px;
+		margin-top: 25px;
+	}
+
+	&__block--wrap {
+		display: flex;
+		margin-top: 54px;
+	}
+
+	&__link {
+		@include Arsenal-Bold();
+		font-size: 36px;
+		line-height: 40px;
+		text-decoration: underline;
+		transition: .3s;
+		display: inline-block;
+		margin-top: 11px;
+
+    	&:hover {
+    		color: #47a5ae;
+    	}
 	}
 }
 
 @media only screen and (max-width : 1024px) {
 
 	.review {
-		
+
+		&__title {
+			font-size: 44px;
+			line-height: 45px;
+			margin-top: 60px;
+		}
+
+		&__text {
+			font-size: 18px;
+			line-height: 25px;
+		}
+
+		&__block--wrap{
+			flex-direction: column;
+		}
+
+		&__block {
+			margin-bottom: 30px;
+		}
+	}
+}
+
+// gallery
+
+.gallery {
+
+	background: #282828;
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		margin-top: 127px;
+		padding: 89px 48px;
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width : 1024px) {
+
+	.gallery {
+		&__content {
+			padding: 40px 10px;
+		}
 	}
 }
