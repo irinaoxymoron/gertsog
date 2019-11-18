@@ -23,6 +23,10 @@
 		}
 	}
 
+	&__link {
+		font-size: 20px;
+	}
+
 	&__contact {
 		width: 29%;
 	}
@@ -105,7 +109,7 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.footer {
 

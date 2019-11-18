@@ -29,7 +29,7 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.promo {
 
@@ -97,6 +97,7 @@
 
 	&__slider--wrap {
 		width: 27%;
+		max-width: 270px;
 	}
 
 	&__slider {
@@ -104,7 +105,7 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.about {
 
@@ -132,6 +133,7 @@
 		}
 
 		&__slider--wrap {
+			width: 100%;
 			margin-top: 20px;
 		}
 	}
@@ -141,7 +143,7 @@
 
 .advantages {
 	margin-top: 145px;
-	margin-bottom: 55px;
+	margin-bottom: 68px;
 
 	&__content {
 		max-width: 1280px;
@@ -161,7 +163,7 @@
 	&__text {
 		font-size: 20px;
 		line-height: 28px;
-		margin-top: 25px;
+		margin-top: 12px;
 	}
 
 	&__btn {
@@ -170,7 +172,7 @@
     	padding: 19px 34px;
     	margin-top: 28px;
     	color: #fff;
-    	font-size: 17px;
+    	font-size: 20px;
     	line-height: 18px;
     	transition: .3s; 
 
@@ -184,7 +186,7 @@
 
 		&--wrap {
 			width: 46%;
-			max-width: 500px;
+			//max-width: 500px;
 		}
 	}
 
@@ -201,7 +203,7 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.advantages {
 		margin-top: 60px;
@@ -262,6 +264,7 @@
 	}
 
 	&__text {
+		max-width: 360px;
 		font-size: 20px;
 		line-height: 28px;
 		color: #fff;
@@ -272,9 +275,9 @@
 		display: inline-block;
     	background: #fff;
     	padding: 19px 34px;
-    	margin-top: 55px;
+    	margin-top: 28px;
     	color: #000;
-    	font-size: 17px;
+    	font-size: 20px;
     	line-height: 18px;
     	transition: .3s; 
 
@@ -284,7 +287,7 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.profile {
 		&__content {
@@ -315,8 +318,8 @@
 // calculator
 
 .calculator-gadget {
-	max-width: 531px;
-	padding: 52px;
+	max-width: 400px;
+	padding: 52px 59px;
 }
 
 .calculator-gadget p {
@@ -359,7 +362,7 @@
 	line-height: 74px;
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.calculator-gadget {
 		padding: 40px 20px;
@@ -391,6 +394,7 @@
 	}
 
 	&__text {
+		width: 80%;
 		font-size: 20px;
 		line-height: 32px;
 		margin-top: 37px;
@@ -403,6 +407,7 @@
 	}
 
 	&__info {
+		width: 80%;
 		@include Arsenal-Bold();
 		font-size: 48px;
 		line-height: 48px;
@@ -418,7 +423,7 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.explore {
 
@@ -429,6 +434,7 @@
 		}
 
 		&__text {
+			width: 100%;
 			font-size: 18px;
 			line-height: 28px;
 		}
@@ -440,6 +446,7 @@
 		}
 
 		&__info {
+			width: 100%;
 			font-size: 44px;
 			line-height: 45px;
 		}
@@ -455,7 +462,7 @@
 		margin: 0 auto;
 		padding: 0 10px;
 		display: flex;
-		justify-content: space-between;
+		justify-content: flex-start;
 		margin-top: 80px;
 	}
 
@@ -495,7 +502,7 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.articles {
 
@@ -506,6 +513,7 @@
 
 		&__text--wrap {
 			width: 100%;
+			max-width: 100%;
 		}
 
 		&__title {
@@ -565,7 +573,7 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.review {
 
@@ -605,11 +613,21 @@
 	}
 }
 
-@media only screen and (max-width : 1024px) {
+@media only screen and (max-width : 1023px) {
 
 	.gallery {
 		&__content {
 			padding: 40px 10px;
 		}
 	}
+}
+
+.fotorama__caption__wrap {
+	@include Arsenal-Bold();
+    font-size: 24px;
+    line-height: 24px;
+}
+
+.active{
+	color: #47a5ae;
 }
