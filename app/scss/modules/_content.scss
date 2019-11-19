@@ -16,6 +16,13 @@
 		margin-top: 82px;
 	}
 
+	&__map {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		margin-top: 80px;
+	}
+
 	&__link {
 		&:nth-child(2n) {
 			padding-top: 30px;
@@ -84,14 +91,89 @@
 
 	&__text {
 		display: flex;
-    	margin-top: 28px;
+    	margin-top: 13px;
 		font-size: 20px;
-		line-height: 32px;
+		line-height: 30px;
 		padding-right: 10px;
+
+		& span {
+			@include Arsenal-Bold();
+			font-size: 36px;
+			line-height: 40px;
+			margin-right: 222px;
+			padding-bottom: 9px;
+    		display: inline-block;
+		}
 
 		& p {
 			margin-top: 10px;
     		padding-right: 30px;
+		}
+
+		&--link {
+			text-decoration: underline;
+			transition: .3s; 
+
+    		&:hover {
+    			color: #47a5ae;
+    		}
+		}
+
+		&--viber {
+			display: inline-block;
+    		position: relative;
+    		margin-left: 100px;
+   		 	margin-top: 22px;
+
+			&:before {
+				content: '';
+    			width: 52px;
+    			position: absolute;
+    			right: 53px;
+    			height: 52px;
+    			background: url(../img/header__viber.png);
+    			background-repeat: no-repeat;
+    			background-size: contain;
+    			top: -10px;
+			}
+		}
+
+		&--whatsapp {
+			display: inline-block;
+    		position: relative;
+    		margin-left: 66px;
+    		margin-top: 22px;
+
+			&:before {
+				content: '';
+    			width: 52px;
+    			position: absolute;
+    			right: 94px;
+    			height: 52px;
+    			background: url(../img/header__whatsapp.png);
+    			background-repeat: no-repeat;
+    			background-size: contain;
+    			top: -10px;
+			}
+		}
+
+		&--telegram {
+			display: inline-block;
+    		position: relative;
+    		margin-left: 102px;
+    		margin-top: 22px;
+
+			&:before {
+				content: '';
+    			width: 52px;
+    			position: absolute;
+    			right: 83px;
+    			height: 52px;
+    			background: url(../img/header__telegram.png);
+    			background-repeat: no-repeat;
+    			background-size: contain;
+    			top: -10px;
+			}
 		}
 	}
 
@@ -135,6 +217,34 @@
 		&__slider--wrap {
 			width: 100%;
 			margin-top: 20px;
+		}
+
+		&__text--whatsapp {
+			display: block;
+
+			&:before {
+				right: 198px;
+			}
+		}
+
+		&__text--viber {
+			display: block;
+			margin-left: 66px;
+    		margin-top: 32px;
+
+			&:before {
+				right: 198px;
+			}
+		}
+
+		&__text--telegram {
+			display: block;
+			margin-left: 66px;
+    		margin-top: 32px;
+
+			&:before {
+				right: 198px;
+			}
 		}
 	}
 }
@@ -470,6 +580,7 @@
 		border-bottom: 1px solid #eaeaea;
 		width: 33%;
 		max-width: 330px;
+		margin-right: 20px;
 	}
 
 	&__subtitle {
@@ -630,4 +741,165 @@
 
 .active{
 	color: #47a5ae;
+}
+
+.mb-110	{
+	margin-bottom: 110px;
+}
+
+// form 
+
+.form {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 0 10px;
+	margin-top: 96px;
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 110px;
+	margin-bottom: 81px;
+
+	&__title {
+		@include Arsenal-Bold();
+		font-size: 36px;
+		line-height: 40px;
+	}
+
+	&__content {
+		margin-top: 39px;
+		display: flex;
+	}
+
+	&--wrap {
+		width: 82%;
+	}
+
+	&__text--wrap {
+		width: 30%;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 28px;
+    	margin-right: 10px;
+	}
+}
+
+.form-part {
+	& input[type="text"] {
+		width: 89%;
+		padding: 15px 20px;
+    	margin-bottom: 35px;
+	}
+
+	& input[type="radio"] {
+    	height: 14px;
+    	margin: 0;
+    	opacity: 0;
+    	position: relative;
+    	top: 0;
+    	width: 14px;
+	}
+
+	& a {
+		display: inline-block;
+    	padding: 16px 30px;
+    	border: 2px solid #47a5ae;
+    	font-size: 17px;
+    	transition: .3s;
+
+    	&:hover {
+    		opacity: .6;
+    	}
+	}
+
+	& input[type="radio"]:checked + label {
+    	background-image: url(../img/checked.png);
+    	background-repeat: no-repeat;
+    	margin-left: -8px;
+    	background-position: left 0;
+    	padding: 0px 0 0 26px;
+	}
+
+	& input[type="radio"] + label {
+    	background-image: url(../img/checkbox.png);
+    	background-position: left 0px;
+    	background-repeat: no-repeat;
+    	margin-left: -8px;
+    	padding: 0px 0 0 26px;
+	}
+
+	& input[type="submit"] {
+    	margin-top: 32px;
+    	padding: 19px 29px;
+    	cursor: pointer;
+    	background-color: #282828;
+    	color: #fff;
+    	border: none;
+    	transition: .3s;
+
+    	&:hover {
+    		background-color: #47a5ae;
+    	}
+	}
+}
+
+.form-little {
+	display: inline-block;
+	margin-left: 12px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.city-radio-block {
+	margin-top: 28px;
+    display: flex;
+}
+
+.p-r-r {
+	display: flex;
+	font-size: 20px;
+	line-height: 22px;
+	margin-right: 26px;
+}
+
+@media only screen and (max-width : 1023px) {
+
+	.form {
+		margin-top: 60px;
+		padding-bottom: 60px;
+		margin-bottom: 40px;
+
+		&__content {
+			flex-direction: column;
+		}
+
+		&--wrap {
+			width: 100%;
+		}
+
+		&__text--wrap {
+			width: 100%;
+			margin-top: 30px;
+		}
+	}
+
+	.form-part {
+		& input[type="text"] {
+			width: 100%;
+		}
+
+		& a {
+			width: 100%;
+			padding: 16px 21px;
+		}
+
+		& input[type="submit"] {
+			width: 100%;
+		}
+	}
+
+	.form-little {
+		margin-top: 10px;
+		margin-left: 0;
+	}
 }
