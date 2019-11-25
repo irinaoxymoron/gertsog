@@ -54,7 +54,15 @@
 				padding: 0 10px;
 			}
 		}
-		
+
+		&__link {
+			&:nth-child(3) {
+				display: none;
+			}
+			&:nth-child(4) {
+				display: none;
+			}
+		}
 	}
 }
 
