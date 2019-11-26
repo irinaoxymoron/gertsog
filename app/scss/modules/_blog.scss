@@ -1,0 +1,187 @@
+// blog
+
+.blog {
+
+	width: 67%;
+
+	&--wrap {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		display: flex;
+		margin-top: 83px;
+	}
+
+	&--wrap > .blog {order: 1;}
+	&--wrap > .tags {order: 2;}
+
+	&__item {
+		margin-bottom: 90px;
+	}
+
+	&__title {
+		@include Arsenal-Bold();
+		margin-top: 34px;
+		font-size: 48px;
+		line-height: 48px;
+	}
+
+	&__link {
+		text-decoration: underline;
+		transition: .3s; 
+
+    	&:hover {
+    		color: #47a5ae;
+    	}
+	}
+
+	&__text {
+		margin-top: 25px;
+		font-size: 20px;
+		line-height: 28px;
+		max-width: 590px;
+	}
+}
+
+@media only screen and (max-width : 1023px) {
+
+	.blog {
+
+		width: 100%;
+
+		&--wrap {
+			flex-direction: column;
+		}
+		&--wrap > .blog {order: 2;}
+		&--wrap > .tags {order: 1;}
+
+		&__title {
+			font-size: 32px;
+			line-height: 32px;
+		}
+	}
+}
+
+// breadcrumbs
+
+.breadcrumbs {
+	display: flex;
+
+	&__list {
+		display: flex;
+	}
+}
+
+// tags
+
+.tags {
+
+	width: 33%;
+	margin-left: 30px;
+
+	&__content {
+		border: 1px solid #eaeaea;
+	}
+
+	&__title {
+		@include Arsenal-Bold();
+		font-size: 48px;
+		line-height: 48px;
+		margin-top: 18px;
+    	margin-left: 26px;
+    	position: relative;
+
+    	&:before {
+    		content: '';
+    		width: 80px;
+    		position: absolute;
+    		left: -25px;
+    		height: 3px;
+    		background: #000;
+    		bottom: -15px;
+    	}
+	}
+
+	&__list {
+		margin-top: 30px;
+	}
+
+	&__item {
+		display: inline-block;
+	}
+
+	&__link {
+		@include Arsenal-Bold();
+		font-size: 18px;
+		line-height: 18px;
+		padding: 10px;
+		border: 1px solid #eaeaea;
+
+		transition: .3s; 
+
+    	&:hover {
+    		color: #47a5ae;
+    		border: 1px solid #47a5ae;
+    	}
+
+		&--active {
+			background: #282828;
+			color: #fff;
+		}
+	}
+}
+
+@media only screen and (max-width : 1023px) {
+
+	.tags {
+		width: 100%;
+	}
+}
+
+.fixed {
+	position: fixed;
+    top: 10px;
+    right: 0;
+}
+
+@media only screen and (max-width : 1023px) {
+
+	.fixed {
+		position: static;
+	}
+}
+
+// article
+
+.article {
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+	}
+
+	&__title {
+		@include Arsenal-Bold();
+		font-size: 48px;
+		line-height: 48px;
+		margin-top: 34px;
+		margin-bottom: 30px;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 28px;
+	}
+}
+
+@media only screen and (max-width : 1023px) {
+
+	.article {
+
+		&__title {
+			font-size: 32px;
+			line-height: 32px;
+		}
+	}
+}
