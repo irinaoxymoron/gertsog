@@ -95,6 +95,10 @@
 		font-size: 20px;
 		line-height: 32px;
 		margin-top: 13px;
+
+		&--contacts {
+			@include Arsenal-Regular();
+		}
 	}
 
 	&__text {
@@ -231,7 +235,7 @@
 			display: block;
 
 			&:before {
-				right: 198px;
+				left: -65px;
 			}
 		}
 
@@ -241,7 +245,7 @@
     		margin-top: 32px;
 
 			&:before {
-				right: 198px;
+				left: -65px;
 			}
 		}
 
@@ -251,7 +255,7 @@
     		margin-top: 32px;
 
 			&:before {
-				right: 198px;
+				left: -65px;
 			}
 		}
 	}
@@ -837,7 +841,6 @@
 	}
 
 	& input[type="submit"] {
-    	margin-top: 32px;
     	padding: 19px 29px;
     	cursor: pointer;
     	background-color: #282828;
@@ -849,6 +852,15 @@
     		background-color: #47a5ae;
     	}
 	}
+}
+
+.input-wrapper {
+	margin-top: 32px;
+}
+
+.button--wrap {
+	display: flex;
+	align-items: center;
 }
 
 .form-little {
@@ -897,6 +909,7 @@
 		}
 
 		& a {
+			text-align: center;
 			width: 100%;
 			padding: 16px 21px;
 		}
@@ -904,6 +917,10 @@
 		& input[type="submit"] {
 			width: 100%;
 		}
+	}
+
+	.button--wrap {
+		display: block;
 	}
 
 	.form-little {

@@ -31,7 +31,7 @@
 			<h2 class="about__title">Ждем в&nbsp;гости!</h2>
 			<div class="about__content">
 				<div class="about__text--wrap">
-					<div class="about__subtitle">В&nbsp;вебкам студии 10&nbsp;изолированных рабочих комнат с&nbsp;дизайнерскими интерьерами, кондиционерами и&nbsp;профессиональным освещением. Все компьютеры подключены к&nbsp;скоростному интернету и&nbsp;оснащены</div>
+					<div class="about__subtitle about__subtitle--contacts">В&nbsp;вебкам студии 10&nbsp;изолированных рабочих комнат с&nbsp;дизайнерскими интерьерами, кондиционерами и&nbsp;профессиональным освещением. Все компьютеры подключены к&nbsp;скоростному интернету и&nbsp;оснащены</div>
 					<div class="about__text">
 						<p><span>Адрес</span><br>Санкт-Петербург, <br> Невский проспект, д. 23</p>
 						<p><span>Телефон</span><br><a href="tel:+78129995533" class="about__text--link"> +7 (812) 999-55-33</a></p>
@@ -40,9 +40,7 @@
 						<p><span>Мессенджеры</span><br><a href="https://wa.me/79219995533" target="_blank" class="about__text--link about__text--whatsapp">WhatsApp</a><a href="viber://chat?number=+79219995533" class="about__text--link about__text--viber">Viber</a><a href="tg://resolve?domain=gertsogstudio" class="about__text--link about__text--telegram">Telegram</a></p>
 					</div>
 				</div>
-				<div class="about__slider--wrap multiple-items">
-					<img src="img/about__img4.png" alt="slider" class="about__slider">
-					<img src="img/about__img4.png" alt="slider" class="about__slider">
+				<div class="about__slider--wrap">
 					<img src="img/about__img4.png" alt="slider" class="about__slider">
 				</div>
 			</div>
@@ -55,8 +53,10 @@
 					<form class="form-part form-on" method="post" name="contactform" id="indexform" autocomplete="off">
 						<input name="name" type="text" id="name" class="name-and-age required" size="30" placeholder="Имя, возраст">
 						<input name="phone" type="text" id="phone" class="phone required" size="30" placeholder="Телефон">
-						<a href="#" class="button-photo">Загрузить фото</a>
-						<span class="form-little">По&nbsp;закону &laquo;О&nbsp;персональных данных&raquo; студия обязуется <br>не&nbsp;распространять данные моделей и&nbsp;фото из&nbsp;анкет.</span>
+						<div class="button--wrap">
+							<a href="#" class="button-photo">Загрузить фото</a>
+							<span class="form-little">По&nbsp;закону &laquo;О&nbsp;персональных данных&raquo; студия обязуется <br>не&nbsp;распространять данные моделей и&nbsp;фото из&nbsp;анкет.</span>
+						</div>
 						<div class="city-radio-block">
 							<span class="p-r-r">
 								<input type="radio" checked="" name="city" id="spbcity" value="Санкт-Петербург"><label for="spbcity">Санкт-Петербург</label>
@@ -66,8 +66,10 @@
 							</span>
 						</div>
 						<div class="input-wrapper clearfix">
-							<input type="submit" class="send-btn" value="Отправить &rarr;" id="submit" name="Отправить">
-							<span class="form-little">Отправляя анкету, ты&nbsp;подтверждаешь, <br> что тебе исполнилось 18&nbsp;лет.</span>
+							<div class="button--wrap">
+								<input type="submit" class="send-btn" value="Отправить &rarr;" id="submit" name="Отправить">
+								<span class="form-little">Отправляя анкету, ты&nbsp;подтверждаешь, <br> что тебе исполнилось 18&nbsp;лет.</span>
+							</div>
 						</div>
 					</form>
 				</div>
