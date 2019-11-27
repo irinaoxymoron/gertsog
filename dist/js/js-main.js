@@ -20,11 +20,13 @@ $(document).ready(function(){
   });
 
   $('body').scroll(function() {
-    if($('body').scrollTop() > 400){
+    console.log($('body').scrollTop())
+    if($('body').scrollTop() > 428 && $('body').scrollTop() < 1800){
       $('.tags').addClass('fixed');
     }else{
       $('.tags').removeClass('fixed');
     }
+
   });
 });
 
