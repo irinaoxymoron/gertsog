@@ -1,0 +1,54 @@
+// interiors
+
+.interiors {
+
+	background: #282828;
+	margin-top: 71px;
+
+	&__frame {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		margin-top: 84px;
+
+		& iframe {
+			min-height: 510px; 
+		}
+	}
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 21px 10px 63px;
+	}
+
+	&__img {
+		width: 100%;
+		margin-top: 65px;
+	}
+
+	&__text {
+		@include Arsenal-Bold();
+		text-align: center;
+		color: #fefefe;
+		font-size: 36px;
+		line-height: 40px;
+		margin-top: 32px;
+	}
+}
+
+@media only screen and (max-width : 1023px) {
+
+	.interiors {
+
+		&__img {
+			margin-top: 35px;
+		}
+
+		&__text {
+			font-size: 28px;
+			line-height: 30px;
+			margin-top: 20px;
+		}
+	}
+}

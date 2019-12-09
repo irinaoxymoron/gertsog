@@ -1,0 +1,58 @@
+// calculator
+
+.calculator-gadget {
+	max-width: 400px;
+	padding: 52px 59px;
+}
+
+.calculator-gadget p {
+	@include Arsenal-Bold();
+	font-size: 17px;
+	line-height: 19px;
+	margin-bottom: 13px;
+}
+
+.calculator-gadget .calculator-sm {
+	font-size: 12px;
+	line-height: 14px;
+	text-align: center;
+	margin-top: 14px;
+}
+
+.calculator-radio-block {
+	display: flex;
+	margin-bottom: 30px;
+	border: 1px solid #e8e8e8;
+	padding: 0;	
+}
+
+.calculator-radio-block-label {
+
+	border: 1px solid #e8e8e8;
+	padding: 8px 14px;
+	width: 33.333333%;
+	display: flex;
+    justify-content: center;
+
+	& input {
+		display: none;
+	}
+}
+
+.price-place {
+	@include Arsenal-Bold();
+	font-size: 72px;
+	line-height: 74px;
+}
+
+@media only screen and (max-width : 1023px) {
+
+	.calculator-gadget {
+		padding: 40px 20px;
+	}
+
+	.price-place {
+		font-size: 70px;
+	}
+
+}
