@@ -20,7 +20,6 @@ $(document).ready(function(){
   });
 
   $('body').scroll(function() {
-    console.log($('body').scrollTop())
     if($('body').scrollTop() > 428 && $('body').scrollTop() < 1800){
       $('.tags').addClass('fixed');
     }else{

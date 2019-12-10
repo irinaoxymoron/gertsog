@@ -199,6 +199,10 @@
     			top: -10px;
 			}
 		}
+
+		& .article__list {
+			width: 100%;
+		}
 	}
 
 	&__slider--wrap {
@@ -539,10 +543,10 @@
 		display: flex;
 		justify-content: flex-start;
 		margin-top: 80px;
+		border-bottom: 1px solid #eaeaea;
 	}
 
 	&__text--wrap {
-		border-bottom: 1px solid #eaeaea;
 		width: 33%;
 		max-width: 330px;
 		margin-right: 20px;

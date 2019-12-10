@@ -1,0 +1,87 @@
+// vacancies
+
+.vacancies {
+	margin-top: 84px;
+	margin-bottom: 0;
+
+	&__content {
+		max-width: 1280px;
+		margin: 0 auto;
+		padding: 0 10px;
+		display: flex;
+    	justify-content: space-between;
+    	flex-direction: column;
+	}
+
+	&__title {
+		margin-top: 10px;
+	}
+
+	&__text {
+		font-size: 20px;
+		line-height: 28px;
+		margin-top: 12px;
+	}
+
+	&__block {
+		margin-bottom: 64px;
+    	width: 47%;
+
+		&--wrap {
+			display: flex;
+    		justify-content: space-between;
+			width: 100%;
+		}
+	}
+
+	&__subtitle {
+		@include Arsenal-Bold();
+		font-size: 36px;
+		line-height: 38px;
+		margin-top: 28px;
+	}
+
+	&__link {
+		text-decoration: underline;
+		transition: .3s; 
+
+    	&:hover {
+    		color: #47a5ae;
+    	}
+	}
+
+	&__img {
+		width: 100%;
+		border-radius: 15px;
+	}
+}
+
+@media only screen and (max-width : 1023px) {
+
+	.vacancies {
+		margin-top: 60px;
+
+		&__content {
+			flex-direction: column;
+		}
+
+		&__title {
+			font-size: 44px;
+			line-height: 45px;
+		}
+
+		&__subtitle {
+			font-size: 30px;
+			line-height: 32px;
+		}
+
+		&__block {
+
+			width: 100%;
+
+			&--wrap {
+				flex-direction: column;
+			}
+		}
+	}
+}
