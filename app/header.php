@@ -13,7 +13,7 @@
 			<ul class="menu ul-trigger">
 				<li class="menu__item"><a href="/vacancies.php" class="menu__link">Вакансии</a></li>
 				<li class="menu__item"><a href="/reviews.php" class="menu__link">Отзывы</a></li>
-				<li class="menu__item"><a href="#" class="menu__link">Вопрос-ответ</a></li>
+				<li class="menu__item"><a href="/faq.php" class="menu__link">Вопрос-ответ</a></li>
 				<li class="menu__item"><a href="/interiors.php" class="menu__link">Интерьеры</a></li>
 				<li class="menu__item"><a href="/articles.php" class="menu__link">Статьи</a></li>
 				<li class="menu__item"><a href="/contacts.php" class="menu__link">Контакты</a></li>

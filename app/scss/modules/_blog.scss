@@ -17,6 +17,15 @@
 
 	&__item {
 		margin-bottom: 90px;
+
+		& a {
+			text-decoration: underline;
+			transition: .3s;
+
+    		&:hover {
+    			color: #47a5ae;
+    		}
+		}
 	}
 
 	&__title {

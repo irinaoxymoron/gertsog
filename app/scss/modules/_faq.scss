@@ -89,21 +89,37 @@
 			flex-direction: column;
 		}
 
-		&__title {
-			font-size: 44px;
-			line-height: 45px;
-		}
-
 		&__subtitle {
-			font-size: 30px;
-			line-height: 32px;
+			font-size: 22px;
+    		line-height: 32px;
+    		margin: 10px;
+
+    		&:before {
+    			left: -11px;
+    			bottom: -10px;
+			}
 		}
 
 		&__block {
 
+			margin-bottom: 40px;
+
 			&--wrap {
 				width: 100%;
 			}
+		}
+
+		&__text {
+			padding: 5px 15px;
+
+			&--wrap {
+				margin-top: 25px;
+    			margin-bottom: 25px;
+			}
+		}
+
+		&__list {
+			padding: 5px 15px 5px 32px;
 		}
 	}
 }

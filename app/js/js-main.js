@@ -27,6 +27,25 @@ $(document).ready(function(){
     }
 
   });
+
+  $('body').scroll(function() {
+    if($('body').scrollTop() > 428 && $('body').scrollTop() < 1500){
+      $('.tagsVacancies').addClass('fixed');
+    }else{
+      $('.tagsVacancies').removeClass('fixed');
+    }
+
+  });
+
+  $('body').scroll(function() {
+    if($('body').scrollTop() > 428 && $('body').scrollTop() < 1000){
+      $('.tagsAdministrator').addClass('fixed');
+    }else{
+      $('.tagsAdministrator').removeClass('fixed');
+    }
+
+  });
+
 });
 
 $('.center').slick({

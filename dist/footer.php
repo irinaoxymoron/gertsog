@@ -24,7 +24,7 @@
 			<ul class="footer__menu">
 				<li class="footer__menu__item"><a href="/vacancies.php" class="footer__menu__link">Вакансии</a></li>
 				<li class="footer__menu__item"><a href="/reviews.php" class="footer__menu__link">Отзывы</a></li>
-				<li class="footer__menu__item"><a href="#" class="footer__menu__link">Вопрос-ответ</a></li>
+				<li class="footer__menu__item"><a href="/faq.php" class="footer__menu__link">Вопрос-ответ</a></li>
 				<li class="footer__menu__item"><a href="/interiors.php" class="footer__menu__link">Интерьеры</a></li>
 				<li class="footer__menu__item"><a href="/articles.php" class="footer__menu__link">Статьи</a></li>
 				<li class="footer__menu__item"><a href="/contacts.php" class="footer__menu__link">Контакты</a></li>
