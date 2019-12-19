@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Отзывы о студии Герцог — первой вебкам студии Петербурга</title>
+	<link rel="stylesheet" type="text/css" href="css/slick.css"/>
+	<link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+	<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" />
+	<link href="../img/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+	<!-- Fotorama from CDNJS, 19 KB -->
+	<link  href="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/YouTubePopUp.css">
+	<link rel="stylesheet" type="text/css" href="css/calculator.css"/>
+	<link href='css/style.css' media='screen, projection' rel='stylesheet' type='text/css' />
+</head>
+<body>
+	
+	<?php include 'header.php'; ?>
+
+	<div class="content">
+
+		<div class="promo">
+			<div class="promo__content">
+				<h1 class="promo__title">Отзывы</h1>
+				<div class="interiors__frame">
+					<iframe src="https://www.youtube.com/embed/GsWeXztMfSA?enablejsapi=1;showinfo=0" width="100%" frameborder="0" allowfullscreen></iframe>
+				</div>
+			</div>
+		</div>
+
+		<div class="advantages reviews">
+			<div class="advantages__content">
+				<div class="advantages__block--wrap">
+					<div class="advantages__block">
+						<a href="https://www.youtube.com/watch?v=rIwGkC8QjyM" class="review__link"><img src="img/reviews__img1.jpg" alt="Деньги каждый день" class="advantages__img"></a>
+						<h3 class="advantages__subtitle"><a href="https://www.youtube.com/watch?v=rIwGkC8QjyM" class="review__link">Руслан, 24&nbsp;года</a></h3>
+						<p class="advantages__text">Мы&nbsp;всегда выполняем&nbsp;то, что обещаем: это подтверждает 12-летний опыт работы.</p>
+					</div>
+					<div class="advantages__block">
+						<h3 class="advantages__subtitle">Артем, 18&nbsp;лет</h3>
+						<p class="advantages__text">Пришли с&nbsp;другом по&nbsp;приколу :). Даже не&nbsp;думал о&nbsp;работе вебкам моделью для мужчин, отзывы специально не&nbsp;читал. Мы&nbsp;оба приехали из&nbsp;Мурманска. Почти месяц искали работу. Когда шли на&nbsp;собеседование, заранее считали, что это очередной лохотрон (особенно, когда мне сказали по&nbsp;телефону, что возьмут на&nbsp;работу без регистрации). В&nbsp;студии есть ежедневная зарплата, думал, если не&nbsp;заплатят в&nbsp;1-й день&nbsp;&mdash; сразу свалим. Заплатили!!!!</p>
+						<p class="advantages__text">Работаю здесь уже полгода, всем доволен. Удобно, что могу сам график составлять как мне удобно. Еще круто, что зарплата считается в&nbsp;долларах, сейчас это актуально. Мой друг в&nbsp;итоге работать не&nbsp;стал, видеочат это &laquo;не&nbsp;его&raquo;, но&nbsp;зато он&nbsp;познакомился в&nbsp;студии с&nbsp;реально офигенной девчонкой ))))</p>
+					</div>
+					<div class="advantages__block">
+						<a href="https://www.youtube.com/watch?v=rIwGkC8QjyM" class="review__link"><img src="img/reviews__img2.jpg" alt="Деньги каждый день" class="advantages__img"></a>
+						<h3 class="advantages__subtitle"><a href="https://www.youtube.com/watch?v=rIwGkC8QjyM" class="review__link">Валерий, 22&nbsp;года</a></h3>
+						<p class="advantages__text">Мы&nbsp;всегда выполняем&nbsp;то, что обещаем: это подтверждает 12-летний опыт работы.</p>
+					</div>
+					<div class="advantages__block">
+						<h3 class="advantages__subtitle">Андрей, 19&nbsp;лет</h3>
+						<p class="advantages__text">Работаю в&nbsp;студии уже почти год. Вебкам&nbsp;&mdash; это работа не&nbsp;совсем обычная, конечно. Но&nbsp;в&nbsp;общем, позволила мне переехать из&nbsp;ужасной коммуналки. Сейчас снимаем с&nbsp;девушкой двушку в&nbsp;центре. За&nbsp;что еще благодарен студии: за&nbsp;4&nbsp;месяца смог решить вопрос с&nbsp;военным билетом :)</p>
+					</div>
+				</div>
+				<div class="advantages__block--wrap">
+					<div class="advantages__block">
+						<h3 class="advantages__subtitle">Ирина, 24&nbsp;года</h3>
+						<p class="advantages__text">Пришла в&nbsp;Герцог полгода назад из&nbsp;другой студии, не&nbsp;сложились отношения с&nbsp;тамошним админом :( На&nbsp;Герцог были хорошие отзывы девушек о&nbsp;работе веб моделью.</p>
+						<p class="advantages__text">Понравились условия в&nbsp;Герцоге: здесь процент хороший платят и&nbsp;администраторы все адекватные. Одно только смущало, что работают не&nbsp;только девочки, но&nbsp;и&nbsp;ПАРНИ! Не&nbsp;очень хотелось такого соседства, непривычно. В&nbsp;итоге была приятно удивлена, насколько здесь хороший коллектив. Поняла, что когда девочки &laquo;разбавлены&raquo; парнями, совершенно другая атмосфера. Здесь нет обычных наших бабских дрязг, которые то&nbsp;и&nbsp;дело возникали на&nbsp;прошлой студии.</p>
+					</div>
+					<div class="advantages__block">
+						<a href="https://www.youtube.com/watch?v=rIwGkC8QjyM" class="review__link"><img src="img/reviews__img3.jpg" alt="Деньги каждый день" class="advantages__img"></a>
+						<h3 class="advantages__subtitle"><a href="https://www.youtube.com/watch?v=rIwGkC8QjyM" class="review__link">Карина, 27&nbsp;лет</a></h3>
+						<p class="advantages__text">Мы&nbsp;всегда выполняем&nbsp;то, что обещаем: это подтверждает 12-летний опыт работы.</p>
+					</div>
+					<div class="advantages__block">
+						<h3 class="advantages__subtitle">Мария, 21&nbsp;год</h3>
+						<p class="advantages__text">Попросили написать отзыв, пишу :) Помню, как позвонила в&nbsp;студию... По&nbsp;телефону встретили не&nbsp;очень дружелюбно. Когда пришла, поняла, что просто попала на&nbsp;одного из&nbsp;запаренных администраторов :) На&nbsp;собеседовании все подробно рассказали, ответили на&nbsp;вопросы. Сейчас все хорошо. Если возникают проблемы, админы всегда помогают.</p>
+						<p class="advantages__text">Все-таки, почему работаю в&nbsp;вебкам студии и&nbsp;задержалась здесь уже на&nbsp;2&nbsp;года... Я&nbsp;не&nbsp;очень люблю личные контакты с&nbsp;людьми и&nbsp;суматоху. На&nbsp;предыдущей работе директор вообще сидел через стол от&nbsp;меня и&nbsp;постоянно отвлекал по&nbsp;всякой ерунде, несколько человек одновременно разговаривали по&nbsp;телефону, было ощущение вокзала. Здесь&nbsp;же, в&nbsp;студии, спокойная и&nbsp;комфортная обстановка, отдельные комнаты и&nbsp;никто не&nbsp;вторгается в&nbsp;мое личное пространство.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<?php include 'block_calculator.php'; ?>
+
+		<?php include 'block_learn_more.php'; ?>
+
+	</div>
+
+	<?php include 'footer.php'; ?>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<!-- Fotorama from CDNJS, 19 KB -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.4/fotorama.js"></script>
+<script type="text/javascript" src="js/YouTubePopUp.jquery.js"></script>
+<script type="text/javascript" src="js/jquery.lightbox-0.5.pack.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/js-main.js"></script>
+<script src="js/calculator.js"></script>
+</body>
+</html>
+

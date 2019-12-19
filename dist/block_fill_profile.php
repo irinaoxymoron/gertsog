@@ -1,0 +1,6 @@
+<div class="explore">
+	<div class="explore__content">
+		<p class="explore__subtitle">Ответим в&nbsp;течение дня</p>
+		<p class="explore__info"><a href="contacts.php#form-profile" class="explore__link">Заполни анкету</a>, чтобы узнать больше и&nbsp;стать моделью</p>
+	</div>
+</div>
